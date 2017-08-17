@@ -10,7 +10,7 @@ public class DragObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
 	void Awake()
 	{
-		canvasTran = transform.parent.parent;
+        canvasTran = transform.parent.parent;
 	}
 
 	public void OnBeginDrag(PointerEventData pointerEventData)
@@ -21,8 +21,16 @@ public class DragObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
 	public void OnDrag(PointerEventData pointerEventData)
 	{
-		draggingObject.transform.position = pointerEventData.position;
+		draggingObject.transform.position = pointerEventData.position * 0.005F;
+        //Debug.Log(transform.position);
+        //Debug.Log(pointerEventData.position * 0.005F);
+		transform.position = pointerEventData.position * 0.005F;
 	}
+
+    //private Vector2 ScalePoints(Vector2 p) 
+    //{
+    //    return new Vector2(p.x * float(0.005), p.y * 0.005);
+    //}
 
 	public void OnEndDrag(PointerEventData pointerEventData)
 	{
