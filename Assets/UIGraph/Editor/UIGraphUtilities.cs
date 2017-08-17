@@ -7,7 +7,7 @@ using System.Collections;
 public static class UIGraphUtilities {
 	static string nodeName = "New Node";
 	static Type[] nodeTypes = new Type[]{typeof(Canvas), typeof(Image), typeof(GraphNode)};
-	static float nodeScale = 0.005f;
+    static float nodeScale = 1.000f; //0.005f;
 	static Vector2 nodeSize = new Vector2(400f, 200f);
 
 	static string textName = "Text";
