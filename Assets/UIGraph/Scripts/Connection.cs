@@ -18,8 +18,13 @@ public class Connection : MonoBehaviour {
 	[SerializeField] LineRenderer _line;
 	public LineRenderer line {
 		get {
-			if (!_line) _line = GetComponent<LineRenderer>();
-			return _line;
+			if (!_line)
+			{
+				_line = GetComponent<LineRenderer>();
+				_line.startWidth = 3.0f;
+				_line.endWidth = 3.0f;
+			}
+            return _line;
 		}
 	}
 

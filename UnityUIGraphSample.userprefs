@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{AF44EB14-1BBE-E69D-58FF-008EDB35332A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UIGraph/Scripts/Connection.cs">
+    <Files>
+      <File FileName="Assets/UIGraph/Editor/ConnectionEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIGraph/Editor/GraphNodeEditor.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIGraph/Editor/ConnectionPointDrawer.cs" Line="21" Column="5" />
+      <File FileName="Assets/UIGraph/Editor/ConnectionManagerEditor.cs" Line="20" Column="5" />
+      <File FileName="Assets/UIGraph/Editor/UIGraphUtilities.cs" Line="22" Column="44" />
+      <File FileName="Assets/DragObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIGraph/Scripts/Connection.cs" Line="134" Column="3" />
+      <File FileName="Assets/UIGraph/Scripts/ConnectionManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIGraph/Scripts/ConnectionPoint.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIGraph/Scripts/GraphNode.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIGraph/Scripts/Util/SpinCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIGraph/Scripts/Util/ObfuscateText.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIGraph/Scripts/Util/ObfuscateObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/UIGraph/Scripts/Util/NewBehaviourScript.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.UnityUIGraphSample PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
