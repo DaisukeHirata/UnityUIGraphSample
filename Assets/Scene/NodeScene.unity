@@ -608,7 +608,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: draggable
+  m_Text: droppable
 --- !u!222 &358066000
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1029,6 +1029,7 @@ GameObject:
   - component: {fileID: 1216774026}
   - component: {fileID: 1216774025}
   - component: {fileID: 1216774024}
+  - component: {fileID: 1216774028}
   m_Layer: 0
   m_Name: Panel
   m_TagString: Untagged
@@ -1108,6 +1109,18 @@ RectTransform:
   m_AnchoredPosition: {x: -90.5, y: -24.4}
   m_SizeDelta: {x: 2816.8, y: 1590.9}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1216774028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1216774023}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2592217eaa8f04e9cb494144a008a784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iconImage: {fileID: 0}
 --- !u!1 &1222325874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1972,7 +1985,7 @@ GameObject:
   - component: {fileID: 1998244762}
   - component: {fileID: 1998244764}
   m_Layer: 0
-  m_Name: Draggable Image
+  m_Name: Droppable Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1994,7 +2007,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 806, y: 175}
+  m_AnchoredPosition: {x: 1801, y: 156}
   m_SizeDelta: {x: 282.2, y: 236.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998244762
@@ -2017,7 +2030,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 0}
-  m_Type: 0
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4

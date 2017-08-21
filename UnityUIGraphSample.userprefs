@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{AF44EB14-1BBE-E69D-58FF-008EDB35332A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DragObject.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DroppableObject.cs">
     <Files>
       <File FileName="Assets/UIGraph/Editor/ConnectionEditor.cs" Line="27" Column="3" />
       <File FileName="Assets/UIGraph/Editor/GraphNodeEditor.cs" Line="16" Column="32" />
       <File FileName="Assets/UIGraph/Editor/UIGraphUtilities.cs" Line="10" Column="38" />
       <File FileName="Assets/UIGraph/Editor/ConnectionManagerEditor.cs" Line="14" Column="9" />
-      <File FileName="Assets/ConnectButton.cs" Line="17" Column="52" />
+      <File FileName="Assets/ConnectButton.cs" Line="20" Column="1" />
       <File FileName="Assets/UIGraph/Scripts/Connection.cs" Line="154" Column="2" />
       <File FileName="Assets/UIGraph/Scripts/ConnectionPoint.cs" Line="1" Column="1" />
       <File FileName="Assets/UIGraph/Scripts/ConnectionManager.cs" Line="109" Column="15" />
-      <File FileName="Assets/DragObject.cs" Line="22" Column="37" />
+      <File FileName="Assets/DropObject.cs" Line="20" Column="44" />
+      <File FileName="Assets/DroppableObject.cs" Line="40" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

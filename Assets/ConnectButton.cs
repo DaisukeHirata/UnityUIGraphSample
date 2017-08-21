@@ -14,7 +14,7 @@ public class ConnectButton : MonoBehaviour {
 		Debug.Log("Button Click: " + counter);
 		counter++;
 
-        GameObject g1 = GameObject.Find("Draggable Image");
+        GameObject g1 = GameObject.Find("Droppable Image");
 		GameObject g2 = GameObject.Find("New Node3");
         ConnectionManager.CreateConnection(g1.GetComponent<RectTransform>(), g2.GetComponent<RectTransform>());
 	}

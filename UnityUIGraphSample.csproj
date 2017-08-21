@@ -112,6 +112,8 @@
   <ItemGroup>
     <Compile Include="Assets\ConnectButton.cs" />
     <Compile Include="Assets\DragObject.cs" />
+    <Compile Include="Assets\DropObject.cs" />
+    <Compile Include="Assets\DroppableObject.cs" />
     <Compile Include="Assets\UIGraph\Scripts\Connection.cs" />
     <Compile Include="Assets\UIGraph\Scripts\ConnectionManager.cs" />
     <Compile Include="Assets\UIGraph\Scripts\ConnectionPoint.cs" />
