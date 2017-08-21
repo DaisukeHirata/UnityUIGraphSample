@@ -22,7 +22,8 @@ public class DragObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 	public void OnDrag(PointerEventData pointerEventData)
 	{
 //		draggingObject.transform.position = pointerEventData.position * 0.005F;
-		transform.position = pointerEventData.position;
+//		transform.position = pointerEventData.position;
+        transform.position = GetLocalPosition(pointerEventData.position);
 	}
 
 	public void OnEndDrag(PointerEventData pointerEventData)
@@ -52,5 +53,15 @@ public class DragObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 		draggingImage.material = sourceImage.material;
 
 		gameObject.GetComponent<Image>().color = Vector4.one * 0.6f;
+	}
+
+
+	private Vector2 GetLocalPosition(Vector2 screenPosition)
+	{
+		Vector3 result = Vector3.zero;
+
+        RectTransformUtility.ScreenPointToWorldPointInRectangle(canvasTran.GetComponent<RectTransform>(), screenPosition, Camera.main, out result);
+
+		return result;
 	}
 }
