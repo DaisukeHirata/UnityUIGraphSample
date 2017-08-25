@@ -9,6 +9,7 @@ public class DragObject : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDr
 
 	void Awake()
 	{
+		Debug.Log ("Awake called");
         canvasTran = transform.parent.parent;
 	}
 
